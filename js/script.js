@@ -165,7 +165,7 @@ var mesh;
 // 添加文字geometry
 function addTextGeometry(text) {
   var loader = new THREE.FontLoader();
-  loader.load("/js/MaokenAssortedSans_Regular.json", function (res) {
+  loader.load("https://fastly.jsdelivr.net/gh/ZtfCoder/love/js/MaokenAssortedSans_Regular.json", function (res) {
     var geometry = new THREE.TextGeometry(text + "", {
       font: res, // 字体格式
       size: 13, // 字体大小
