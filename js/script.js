@@ -188,12 +188,12 @@ function addTextGeometry(text) {
   });
 }
 
-// let startTime = dayjs("2021-06-05");
-// let nowTime = dayjs();
-// let differDay = nowTime.diff(startTime, "day");
-// addTextGeometry("小棍" + differDay + "小肥");
+let startTime = dayjs("2021-06-07");
+let nowTime = dayjs();
+let differDay = nowTime.diff(startTime, "day");
+addTextGeometry("小棍" + differDay + "小肥");
 // setInterval(() => {
-//  移除文字,重新添加文字
+//   //移除文字, 重新添加文字
 //   scene.remove(mesh);
 //   addTextGeometry();
 // }, 1000);
